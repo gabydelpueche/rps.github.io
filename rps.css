@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    animation: back 5s infinite alternate;
+    height: 100vh;
+    background-color: #576490;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+/*
+#all{
+    opacity: 0;
+}*/
+
+@keyframes back {
+    0%  {background-color:#7796CB};
+    100%  {background-color:#576490};   
+}
+
+h1, h2{
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    color:white;
+    text-shadow:#A3BCF9 2px 2px;
+}
+
+#feedback{
+    font-size: 40px;
+    height: 40px;
+    width: 100px;
+    z-index: 2;
+    margin-top: 10px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.otherBox{
+    display: flex;
+    justify-content:space-evenly;
+    width: 80%;
+}
+
+#ahh , #ahhh{
+    width: 200px;
+    height: 200px;
+    background-color:#576490;
+    margin: 10px;
+    border: #A3BCF9 6px solid;
+    border-radius: 10%;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color:#A3BCF9;
+    font-size: 30px;
+}
+
+p{
+    width: 300px;
+    height: 200px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 18px; 
+}
+
+.con1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #D1D2F9;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.box1{
+    width: 250px;
+    height: 250px;
+    background-color: #A3BCF9;
+    border-radius: 50%;
+}
+
+.box2{
+    width: 250px;
+    height: 250px;
+    background-color: #A3BCF9;
+    border-radius: 50%;
+}
+
+.box3{
+    width: 250px;
+    height: 250px;
+    background-color: #A3BCF9;
+    border-radius: 50%;
+}
+
+#rock, #paper, #scissors{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#scissors:hover {opacity: 1; scale: 1.1;}
+#rock:hover {opacity: 1; scale: 1.1;}
+#paper:hover {opacity: 1; scale: 1.1;}
+
+/*
+#mainMenu{
+    opacity: 1;
+}
+
+#gotIt{
+    width: 200px;
+    height: 10px;
+    background-color: white;
+    color: #A3BCF9;
+    border: #A3BCF9 5px solid;
+    border-radius: 10%;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+#gotIt:hover{
+    background-color:#A3BCF9;
+    color: white;
+}*/
